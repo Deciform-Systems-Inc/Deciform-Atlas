@@ -1,47 +1,36 @@
 ---
-title: "Quickstart"
-description: "Begin with a guide on the fastest path to a successful outcome"
+title: "Your first investigation"
+description: "Follow one question from source evidence to an accepted model change."
 ---
 
-Describe how someone begins using your product. What is the first thing they need to do? Are there any prerequisites?
-
-A quickstart should take someone from zero to using your product. They'll get a quick win and a sense of what they can accomplish.
-
-## Prerequisites
-
-Before you begin, you must have:
-
-- Requirement one (for example, Node.js 18+, a free account, an API key)
-- Requirement two (for example, a compatible device, a compatible browser, a compatible operating system)
-
-## Get started
+Use a working copy of the synthetic reference for this walkthrough. You need an account with editing access. AI is optional: the manual review path remains useful when AI is unavailable.
 
 <Steps>
-  <Step title="Install">
-    Describe how to install your product or sign up.
+<Step title="Choose the right workspace">
+Open [Deciform](https://app.deciform.ai/workspace). Check the selected client and engagement. Read the brief, then make or open a working copy of the synthetic reference. The reference itself is read-only.
+</Step>
+<Step title="Inspect a source">
+Open **Sources** and choose one source. Read the original passage and its location before drawing a conclusion. If uploading your own practice material, mark it clearly as synthetic and follow the [supported formats](/sources/add-and-review).
+</Step>
+<Step title="Create a question">
+In **Questions**, choose **New question**. Ask something narrow enough to answer with evidence, and describe the decision it blocks. Set branch and period scope where known.
 
-    ```bash
-    npm install your-package
-    ```
-  </Step>
-  <Step title="Configure">
-    Describe any setup or configuration needed before first use.
-
-    ```bash
-    your-cli init
-    ```
-  </Step>
-  <Step title="Run it">
-    Show the first thing a user does to see it working.
-
-    ```bash
-    your-cli start
-    ```
-  </Step>
+For example: “Who approves a late delivery change at the example branch?” This is a practice question, not a statement about any real company.
+</Step>
+<Step title="Assess the evidence">
+Review relevant passages and save an assessment. Use the manual assessment and proposal controls, or analyze with AI when available. Check every citation, account type, branch and period. Record what remains uncertain.
+</Step>
+<Step title="Review and apply a change">
+Propose a claim supported by the assessed evidence. Review each proposed change and its dependencies; accept, reject or defer it. Use **Apply accepted changes** to update the model. Then open **Business model** and inspect the accepted claim and its evidence.
+</Step>
+<Step title="Resolve or continue">
+Resolve the question only when you can state a supported resolution basis. If evidence is missing or conflicting, leave it open and [prepare a request](/requests/collect-and-import).
+</Step>
+<Step title="Review the handoff">
+In **Engagement**, choose **Export engagement handoff**. Open the downloaded Markdown file and check the accepted claim, source provenance and remaining questions.
+</Step>
 </Steps>
 
-<Tip>
-  Give people a way to get help. This could be a link to a support page, a chat with a customer support agent, or a forum for your product.
+You have completed the loop when a saved claim can be traced back through human review to the correct source passage. A generated answer or accepted-but-unapplied proposal does not complete that loop.
 
-  Example: Need help? Reach out to us at [support@yourcompany.com](mailto:support@yourcompany.com).
-</Tip>
+If the workspace changes or a save is uncertain, use [limits and recovery](/reference/limits-and-recovery) before resubmitting work.

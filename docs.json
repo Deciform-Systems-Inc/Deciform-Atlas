@@ -1,72 +1,102 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Deciform",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#E0350F",
+    "light": "#FF5333",
+    "dark": "#E0350F"
   },
-  "favicon": "/favicon.svg",
   "navigation": {
-    "pages": [
+    "groups": [
       {
-        "group": "Getting Started",
+        "group": "Start here",
         "pages": [
           "index",
-          "quickstart"
+          "quickstart",
+          "workspace-and-access"
+        ]
+      },
+      {
+        "group": "Operator workflows",
+        "pages": [
+          "sources/add-and-review",
+          "investigations/review-and-apply",
+          "model/review-versions-and-evidence",
+          "requests/collect-and-import",
+          "requests/video-conversations",
+          "assistants/ask-and-atlas",
+          "records/decisions-opportunities-designs",
+          "handoff/export-and-review"
+        ]
+      },
+      {
+        "group": "Reference",
+        "pages": [
+          "reference/evidence-and-status",
+          "reference/navigation",
+          "reference/limits-and-recovery"
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    ]
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Deciform Systems",
+        "href": "https://deciform.ai"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Open workspace",
+      "href": "https://app.deciform.ai/workspace"
     }
+  },
+  "description": "Guides for investigating business questions, reviewing source evidence and preparing a discovery handoff in Deciform.",
+  "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
   },
   "contextual": {
     "options": [
       "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
+      "view"
     ]
   },
   "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+    "links": [
+      {
+        "header": "Deciform Systems",
+        "items": [
+          {
+            "label": "Website",
+            "href": "https://deciform.ai"
+          },
+          {
+            "label": "Contact",
+            "href": "mailto:founders@deciform.ai"
+          }
+        ]
+      },
+      {
+        "header": "Policies",
+        "items": [
+          {
+            "label": "Privacy",
+            "href": "https://deciform.ai/privacy"
+          },
+          {
+            "label": "Terms",
+            "href": "https://deciform.ai/terms"
+          },
+          {
+            "label": "Data & AI",
+            "href": "https://deciform.ai/data"
+          }
+        ]
+      }
+    ]
   }
 }

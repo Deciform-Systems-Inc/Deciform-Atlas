@@ -1,33 +1,12 @@
-> **First-time setup**: Customize this file for your project. Prompt the user to customize this file for their project.
-> For Mintlify product knowledge (components, configuration, writing standards),
-> install the Mintlify skill: `npx skills add https://mintlify.com/docs`
+# Deciform documentation guidance
 
-# Documentation project instructions
+This repository contains public operator guides for Deciform, a product of Deciform Systems, Inc. Pages are MDX with YAML frontmatter; navigation, branding and links live in `docs.json`.
 
-## About this project
-
-- This is a documentation site built on [Mintlify](https://mintlify.com)
-- Pages are MDX files with YAML frontmatter
-- Configuration lives in `docs.json`
-- Use the Mintlify MCP server, `https://mcp.mintlify.com`, to edit content and settings via MCP
-- Use the Mintlify docs MCP server, `https://www.mintlify.com/docs/mcp`, to query information about using Mintlify via MCP
-
-## Terminology
-
-{/* Add product-specific terms and preferred usage */}
-{/* Example: Use "workspace" not "project", "member" not "user" */}
-
-## Style preferences
-
-{/* Add any project-specific style rules below */}
-
-- Use active voice and second person ("you")
-- Keep sentences concise — one idea per sentence
-- Use sentence case for headings
-- Bold for UI elements: Click **Settings**
-- Code formatting for file names, commands, paths, and code references
-
-## Content boundaries
-
-{/* Define what should and shouldn't be documented */}
-{/* Example: Don't document internal admin features */}
+- Write for the person using the workspace. Use concise instructions, exact UI labels and synthetic examples.
+- Describe verified product behavior. Distinguish saved evidence, AI suggestions, reviewed proposals, applied model changes and operator-recorded accounts.
+- Keep access requirements explicit. Client membership covers its engagements; collection responses and video joins require editing access. Links do not invite people or grant access.
+- Explain practical limits: navigation drafts are held in memory, AI output needs review, and the Markdown handoff is not a complete backup or privacy export.
+- Keep customer material, credentials, personal data, private links, internal identifiers, implementation notes and security findings out of this public repository.
+- Link to the published Privacy, Terms and Data & AI pages. Do not invent legal commitments, retention periods, service levels or unsupported capabilities.
+- Preserve the Mintlify starter attribution in `LICENSE`. Verify Mintlify configuration against its current official schema.
+- Run `npx --yes mint@4.2.915 validate` and `npx --yes mint@4.2.915 broken-links` before submitting changes. Review the resulting diff; publishing remains a separate step.
